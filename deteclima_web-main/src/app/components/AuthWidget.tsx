@@ -90,7 +90,7 @@ export function AuthWidget() {
       }
       setIsOpen(false);
     } catch (err: unknown) {
-      setError(err instanceof Error ? err.message : 'Error en autenticación');
+      setError(err instanceof Error ? err.message : 'ERROR EN AUTENTIFICACIÓN');
     } finally {
       setIsLoading(false);
     }
