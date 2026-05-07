@@ -1,0 +1,36 @@
+{
+  "name": "deteclima",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --webpack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@serwist/next": "^9.5.7",
+    "@supabase/supabase-js": "^2.104.1",
+    "@types/leaflet": "^1.9.21",
+    "groq-sdk": "^1.1.2",
+    "idb": "^8.0.3",
+    "leaflet": "^1.9.4",
+    "lucide-react": "^1.11.0",
+    "next": "16.2.4",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "react-leaflet": "^5.0.0",
+    "recharts": "^3.8.1",
+    "serwist": "^9.5.7"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.4",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
