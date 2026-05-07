@@ -84,13 +84,13 @@ export function AuthWidget() {
         const { error } = await supabase.auth.signUp({ email, password });
         if (error) throw error;
         // Notify user if email confirmation is enabled on supabase
-        setError("Revisa tu correo para confirmar (si está activado) o inicia sesión.");
+        setError("Revisa tu correo para confirmar (SI ESTA ACTIVO) o inicia sesión.");
         setIsLogin(true);
         return;
       }
       setIsOpen(false);
     } catch (err: unknown) {
-      setError(err instanceof Error ? err.message : 'Error en autenticación');
+      setError(err instanceof Error ? err.message : 'ERROR En AUTENTIFICACIÓN');
     } finally {
       setIsLoading(false);
     }
