@@ -52,7 +52,7 @@ export function MapWidget({ lat, lon, setCoordinates }: Props) {
       setTimeout(() => setSaved(false), 3000);
     } catch (err) {
       console.error('Error saving location:', err);
-      alert('Error al guardar ubicación. ¿Está creada la tabla user_locations en Supabase?');
+      alert('Error al guardar la ubicación. ¿Está creada la tabla user_locations en Supabase?');
     } finally {
       setIsSaving(false);
     }
