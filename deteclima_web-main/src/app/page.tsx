@@ -50,7 +50,7 @@ export default function Home() {
       try {
         if (isOnline) {
           const res = await fetch(`/api/weather?lat=${lat}&lon=${lon}`);
-          if (!res.ok) throw new Error("Error al obtener datos");
+          if (!res.ok) throw new Error("Error al obtener los datos");
           const data = await res.json();
           if (!ignore) {
             setClima(data);
@@ -77,7 +77,7 @@ export default function Home() {
               setClima(cached);
               setIsOfflineData(true);
             } else {
-              setError("Error de conexión. Sin datos disponibles.");
+              setError("Error de conexión no hay datos disponibles.");
             }
           } catch {
             setError("Error al acceder a los datos.");

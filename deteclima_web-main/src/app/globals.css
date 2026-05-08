@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 :root {
-  --color-bg-primary: #0a0f1e;
+  --color-bg-primary: #0e0a1e;
   --color-bg-card: #111827;
   --color-bg-card-hover: #1f2937;
   --color-accent: #38bdf8;
@@ -75,7 +75,7 @@ body {
 }
 
 .leaflet-popup-tip {
-  background: #111827 !important;
+  background: #131b2b !important;
 }
 
 .custom-scrollbar {
