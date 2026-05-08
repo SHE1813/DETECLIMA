@@ -24,6 +24,7 @@ import { useRegionalAlerts } from "@/lib/hooks/useRegionalAlerts";
 import type { Prediccion } from "@/domain/entities";
 
 export default function Home() {
+  // Comentario: estado principal de conectividad y clima mostrado en Home.
   const isOnline = useOnlineStatus();
   const [clima, setClima] = useState<Clima | null>(null);
   const [loading, setLoading] = useState(true);
@@ -105,6 +106,7 @@ export default function Home() {
   }, []);
 
   const exportCSV = useCallback(() => {
+    // Comentario: exporta las variables horarias visibles para análisis externo.
     if (!clima) return;
 
     const header = isOfflineData
