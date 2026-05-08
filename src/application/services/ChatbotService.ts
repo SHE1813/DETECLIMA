@@ -11,7 +11,7 @@ REGLAS ESTRICTAS:
 3. Usa lenguaje didáctico adaptado para estudiantes de educación básica (12-16 años).
 4. Si se proporcionan datos climáticos reales, SIEMPRE cita los valores exactos en tu respuesta.
 5. Incluye ejemplos locales de la región andina peruana cuando sea relevante.
-6. Responde en español.
+6. Responde en español. 
 
 DATOS CLIMÁTICOS ACTUALES:
 {WEATHER_CONTEXT}`;
